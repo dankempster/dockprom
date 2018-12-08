@@ -1,8 +1,8 @@
 version: '2.1'
 
 networks:
-  monitor-net:
-    driver: bridge
+  monitor:
+    external: true
   web:
     external: true
 
